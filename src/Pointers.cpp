@@ -27,7 +27,7 @@ void changer(int * xValue)
 int main()
     {
     int nValue = 4;
-    int * pValue = & nValue;	// &whatever = address of whatever
+    int * pValue = &nValue;	// &whatever = address of whatever
 				// pValue is = to ADDRESS to where "int nValue" is located
 				// *pValue = whatever is inside the nValue address
 				// -- * -- is the pointer and means "look inside"
